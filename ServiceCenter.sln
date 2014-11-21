@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceCenter", "ServiceCenter\ServiceCenter.csproj", "{462C7958-058D-42C9-8970-1AE3DB5473CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceCenter.Framework", "ServiceCenter.Framework\ServiceCenter.Framework.csproj", "{FFC417BD-835D-4DEC-A73C-DB3EB51BF175}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFSUtilities", "TFSUtilities\TFSUtilities.csproj", "{3FCC30EB-B125-443D-A7B6-9D6F404B9C38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{462C7958-058D-42C9-8970-1AE3DB5473CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462C7958-058D-42C9-8970-1AE3DB5473CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462C7958-058D-42C9-8970-1AE3DB5473CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462C7958-058D-42C9-8970-1AE3DB5473CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFC417BD-835D-4DEC-A73C-DB3EB51BF175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC417BD-835D-4DEC-A73C-DB3EB51BF175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC417BD-835D-4DEC-A73C-DB3EB51BF175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC417BD-835D-4DEC-A73C-DB3EB51BF175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FCC30EB-B125-443D-A7B6-9D6F404B9C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FCC30EB-B125-443D-A7B6-9D6F404B9C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FCC30EB-B125-443D-A7B6-9D6F404B9C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FCC30EB-B125-443D-A7B6-9D6F404B9C38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
