@@ -19,5 +19,15 @@ namespace TFSUtilities
             projectCollection.Connect(Microsoft.TeamFoundation.Framework.Common.ConnectOptions.None);
             return projectCollection;
         }
+
+        protected string ExtractParameter(string[] param)
+        {
+            string value = param[1];
+            for (int i = 2; i < param.Length; i++)
+            {
+                value += ":" + param[i];
+            }
+            return value;
+        }
     }
 }
