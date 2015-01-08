@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace ServiceCenter.Framework
 {
-    public interface IService
+    public abstract class DataFormatter : Plugin
     {
-        void Execute();
+        public DataFormatter()
+        {
+            PluginType = typeof(DataFormatter).FullName;
+        }
     }
 }

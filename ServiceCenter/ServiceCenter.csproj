@@ -90,9 +90,25 @@
     <None Include="ServiceCenter_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DBUtilities\DBUtilities.csproj">
+      <Project>{b0dd0070-6a75-4535-8028-e4e3ae465235}</Project>
+      <Name>DBUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MongoUtilities\MongoUtilities.csproj">
+      <Project>{0a917185-8b74-46d1-abb8-4f0d67abc8d2}</Project>
+      <Name>MongoUtilities</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ServiceCenter.Framework\ServiceCenter.Framework.csproj">
       <Project>{ffc417bd-835d-4dec-a73c-db3eb51bf175}</Project>
       <Name>ServiceCenter.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SprintTimeManager.Analyzers\TimeLogManager.Analyzers.csproj">
+      <Project>{558c97bb-5fbc-4e8b-b631-90f1ea8d0792}</Project>
+      <Name>TimeLogManager.Analyzers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SprintTimeManager\TimeLogManager.csproj">
+      <Project>{f5d15896-0d78-44d7-bc99-645b939bc0fe}</Project>
+      <Name>TimeLogManager</Name>
     </ProjectReference>
     <ProjectReference Include="..\TFSUtilities\TFSUtilities.csproj">
       <Project>{3fcc30eb-b125-443d-a7b6-9d6f404b9c38}</Project>

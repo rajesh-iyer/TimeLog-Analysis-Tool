@@ -9,6 +9,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceCenter.Framework", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFSUtilities", "TFSUtilities\TFSUtilities.csproj", "{3FCC30EB-B125-443D-A7B6-9D6F404B9C38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeLogManager", "SprintTimeManager\TimeLogManager.csproj", "{F5D15896-0D78-44D7-BC99-645B939BC0FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoUtilities", "MongoUtilities\MongoUtilities.csproj", "{0A917185-8B74-46D1-ABB8-4F0D67ABC8D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBUtilities", "DBUtilities\DBUtilities.csproj", "{B0DD0070-6A75-4535-8028-E4E3AE465235}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integrations", "Integrations", "{CF73667A-E71C-4ABC-A677-EDD3758A49B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeLogManager.Analyzers", "SprintTimeManager.Analyzers\TimeLogManager.Analyzers.csproj", "{558C97BB-5FBC-4E8B-B631-90F1EA8D0792}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +37,29 @@ Global
 		{3FCC30EB-B125-443D-A7B6-9D6F404B9C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FCC30EB-B125-443D-A7B6-9D6F404B9C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FCC30EB-B125-443D-A7B6-9D6F404B9C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5D15896-0D78-44D7-BC99-645B939BC0FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5D15896-0D78-44D7-BC99-645B939BC0FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5D15896-0D78-44D7-BC99-645B939BC0FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5D15896-0D78-44D7-BC99-645B939BC0FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A917185-8B74-46D1-ABB8-4F0D67ABC8D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A917185-8B74-46D1-ABB8-4F0D67ABC8D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A917185-8B74-46D1-ABB8-4F0D67ABC8D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A917185-8B74-46D1-ABB8-4F0D67ABC8D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0DD0070-6A75-4535-8028-E4E3AE465235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DD0070-6A75-4535-8028-E4E3AE465235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DD0070-6A75-4535-8028-E4E3AE465235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DD0070-6A75-4535-8028-E4E3AE465235}.Release|Any CPU.Build.0 = Release|Any CPU
+		{558C97BB-5FBC-4E8B-B631-90F1EA8D0792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{558C97BB-5FBC-4E8B-B631-90F1EA8D0792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{558C97BB-5FBC-4E8B-B631-90F1EA8D0792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{558C97BB-5FBC-4E8B-B631-90F1EA8D0792}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3FCC30EB-B125-443D-A7B6-9D6F404B9C38} = {CF73667A-E71C-4ABC-A677-EDD3758A49B2}
+		{0A917185-8B74-46D1-ABB8-4F0D67ABC8D2} = {CF73667A-E71C-4ABC-A677-EDD3758A49B2}
+		{B0DD0070-6A75-4535-8028-E4E3AE465235} = {CF73667A-E71C-4ABC-A677-EDD3758A49B2}
 	EndGlobalSection
 EndGlobal

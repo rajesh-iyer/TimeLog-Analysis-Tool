@@ -23,7 +23,7 @@ namespace ServiceCenter
                 Console.WriteLine("Invalid service name.");
                 return;
             }
-            service.Execute(service.ParseArgs(args));
+            service.Execute();
         }
     }
 }
