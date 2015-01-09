@@ -4,8 +4,8 @@ This is a set of commandline utilities that help scrum teammembers track progres
 The tool ensures all teammembers comply against standard rules for creating and tracking tasks per PBI.
 The standard process can be configured as per your project's DONE criteria.
 
-## Sample email notification sent to an individual team member
-<Place holder>
+### Sample email notification sent to an individual team member
+![Alt text](https://github.com/abhijeetd/TimeLog-Analysis-Tool/tree/master/SprintTimeManager/Documentation/TimeMachineEmailNotification.png?raw=true "Sample email notification sent to an individual team member")
 
 Features
 --------
