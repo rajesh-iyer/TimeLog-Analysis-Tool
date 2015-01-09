@@ -5,7 +5,7 @@ The tool ensures all teammembers comply against standard rules for creating and 
 The standard process can be configured as per your project's DONE criteria.
 
 ### Sample email notification sent to an individual team member
-![Alt text](https://github.com/abhijeetd/TimeLog-Analysis-Tool/tree/master/SprintTimeManager/Documentation/TimeMachineEmailNotification.png?raw=true "Sample email notification sent to an individual team member")
+![Alt text](https://github.com/abhijeetd/TimeLog-Analysis-Tool/blob/master/SprintTimeManager/Documentation/TimeMachineEmailNotification.png?raw=true "Sample email notification sent to an individual team member")
 
 Features
 --------
