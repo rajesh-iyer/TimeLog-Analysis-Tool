@@ -30,7 +30,7 @@ namespace TimeLogManager
                 throw new Exception("Configuration parameters not found");
             }
 
-            var notifiers = PluginService.GetPlugins<Notifier>(typeof(Notifier).FullName);
+            var notificationListeners = PluginService.GetPlugins<NotificationListener>(typeof(NotificationListener).FullName);
             var formatter = PluginService.GetPlugin<TimeLogDataFormatter>(typeof(TimeLogDataFormatter).FullName);
             var dataProvider = PluginService.GetPlugin<TimeLogDataProvider>(typeof(TimeLogDataProvider).FullName);
             var analyzers = PluginService.GetPlugins<TimeLogAnalyzer>(typeof(TimeLogAnalyzer).FullName);
@@ -56,7 +56,7 @@ namespace TimeLogManager
                 string devEmail = Context.TeamProfiles.Where(p => p.Fullname == developer).Select(p => p.Email).SingleOrDefault();
                 if (string.IsNullOrEmpty(devEmail) == false)
                 {
-                    notifiers.ForEach(p =>
+                    notificationListeners.ForEach(p =>
                         {
                             try
                             {

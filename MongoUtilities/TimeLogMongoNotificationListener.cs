@@ -9,7 +9,7 @@ using TimeLogManager;
 
 namespace MongoUtilities
 {
-    public class TimeLogMongoNotifier : Notifier
+    public class TimeLogMongoNotificationListener : NotificationListener
     {
         MongoDatabase database;
 

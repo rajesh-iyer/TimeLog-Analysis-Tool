@@ -49,7 +49,7 @@
     <Compile Include="AppDbContext.cs" />
     <Compile Include="AppDbContextInitializer.cs" />
     <Compile Include="ScrummerDbConfiguration.cs" />
-    <Compile Include="TimeLogDBNotifier.cs" />
+    <Compile Include="TimeLogDBNotificationListener.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

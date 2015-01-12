@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace ServiceCenter.Framework.Notification
 {
-    public class EmailNotifier : Notifier
+    public class EmailNotificationListener : NotificationListener
     {
         public string SMTPServer { get; set; }
         public string SMTPPort { get; set; }

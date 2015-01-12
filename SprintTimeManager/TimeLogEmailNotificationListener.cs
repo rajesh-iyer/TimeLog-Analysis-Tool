@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace TimeLogManager
 {
-    public class TimeLogEmailNotifier : EmailNotifier
+    public class TimeLogEmailNotificationListener : EmailNotificationListener
     {
         public override void Notify(NotificationContext context)
         {

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DBUtilities
 {
-    public class TimeLogDBNotifier : Notifier
+    public class TimeLogDBNotificationListener : NotificationListener
     {
         public string ConnectionString { get; set; }
 

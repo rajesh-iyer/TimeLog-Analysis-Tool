@@ -7,7 +7,7 @@ namespace TimeLogManager
 {
     public interface ITimeLogService : IService
     {
-        List<Notifier> LoadNotifiers();
+        List<NotificationListener> LoadNotificationListeners();
         List<TimeLogAnalyzer> LoadAnalyzers();
         List<TimeLog> LoadWorkItems();
     }

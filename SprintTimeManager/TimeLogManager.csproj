@@ -52,7 +52,7 @@
     <Compile Include="ITimeLogService.cs" />
     <Compile Include="Observation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TimeLogEmailNotifier.cs" />
+    <Compile Include="TimeLogEmailNotificationListener.cs" />
     <Compile Include="TimeLogMilestone.cs" />
     <Compile Include="TimeLogNotificationContext.cs" />
     <Compile Include="TimeLogReportingService.cs" />
@@ -66,6 +66,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Documentation\ServiceCenter-logicalview.png" />
     <Content Include="Documentation\TimeMachineEmailNotification.png" />
     <Content Include="TimeLogManagerManifest.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

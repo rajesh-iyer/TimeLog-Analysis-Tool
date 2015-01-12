@@ -45,8 +45,8 @@
     <Compile Include="DataFormatter.cs" />
     <Compile Include="IDTitle.cs" />
     <Compile Include="Notification\EmailContext.cs" />
-    <Compile Include="Notification\EmailNotifier.cs" />
-    <Compile Include="Notification\Notifier.cs" />
+    <Compile Include="Notification\EmailNotificationListener.cs" />
+    <Compile Include="Notification\NotificationListener.cs" />
     <Compile Include="IService.cs" />
     <Compile Include="Notification\NotificationContext.cs" />
     <Compile Include="Parameter.cs" />
