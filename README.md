@@ -1,3 +1,5 @@
+To learn more about the design details visit https://github.com/abhijeetd/TimeLog-Analysis-Tool/wiki/Timelog-analysis-tool-design
+
 Timelog analysis tool
 =====================
 This is a set of commandline utilities that help scrum teammembers track progress of their tasks in any requirement management system (ofcourse it needs access via API).
